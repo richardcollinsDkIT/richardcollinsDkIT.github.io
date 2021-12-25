@@ -1,8 +1,14 @@
   <html>
     <head>
     <title>Merry Christmas!!!</title>
+    <script async src="https://api.countapi.xyz/hit/richardcode.com/visits?  callback=callbackName"></script>
     </head>
     
+    <script>
+          function callbackName(response) {
+              console.log(response.value);
+          }
+    </script>
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
   * {
@@ -13,7 +19,6 @@
     background-image: url("https://wallpaperaccess.com/full/1877322.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-size-filter: grayScale(1);
     height: 100vh;
     margin: 0;
     padding: 0;
